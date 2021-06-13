@@ -1,0 +1,170 @@
+/* media query */
+
+@media(max-width:768px){
+    nav{
+        padding: 10px 25px;
+    }
+
+    header h1{
+        padding: 5px 0;
+    }
+
+    main{
+        margin-top: 0;
+        padding: 10px 0;
+    }
+
+    aside h2{
+        padding: 5px 0;
+    }
+    
+    button{
+        padding: 8px;
+        font-size: .8em;
+    }
+
+    .container{
+        width: 99%;
+        padding: 0 5px;
+    }
+
+    .links li{
+        margin: 0 5px;
+    }
+
+    .links ul li a{
+        padding: 2px 5px;
+    }
+
+    header section{
+        height:170px;
+    }
+
+    header section p{
+        width: 90%;
+        font-size: 1.3rem;
+        letter-spacing: .24em;
+    }
+
+    .showcase{
+        flex-flow: column;
+    }
+
+    .showcase-right-div{
+        padding: 10px;
+        margin-bottom: 5px;
+        flex: 100%;
+    }
+
+    .showcase-right-div p{
+        padding: 5px 0;
+        line-height: 1.1em;
+    }
+
+    .showcase-right-div h3{
+        letter-spacing: .11em;
+     }
+
+     .showcase-left-div{
+        flex: 100%;
+        flex-flow: column;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    q{
+        font-size: 1.5rem;
+    }
+    
+    q span{
+        font-size: 17px !important;
+    }
+
+    .hero{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .blog-post img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .tags ul{
+        grid-template-columns:1fr 3fr 1fr !important;
+    }
+
+    .article img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .content h4{
+        font-size: .83em;
+    }
+
+    .content p{
+        font-size: .73em;
+    }
+}
+
+
+@media(max-width:900px){
+    .container{
+        width: 95%;
+    }
+    .hero{
+        grid-template-columns: 3fr 2fr;
+        gap: 10px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .card{
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    .showcase-left-div{
+        margin: 0 5px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .tags ul{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .tags li{
+        margin: 3px;
+        padding: 5px 9px;
+        font-size: .88em;
+    }
+    
+    .blog-post img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .article{
+        display: flex;
+        align-items: center;
+        margin: 2px 0;
+        padding: 5px 3px;
+    }
+
+    .article img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .content h4{
+        font-size: .85em;
+    }
+
+    .content p{
+        font-size: .75em;
+    }
+}
